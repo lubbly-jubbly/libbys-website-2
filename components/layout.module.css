@@ -1,0 +1,63 @@
+.layout {
+    max-width: 50rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }
+
+.libbyRear {
+  font-size: 70px;
+}
+
+.layout > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    color: palevioletred
+}
+
+.cvLink {
+    width: 100px;
+    height: 100px;
+    background: url("/images/paper.png");
+    background-size: 100px 100px;
+    display: inline-block;
+    border: none;
+}
+.cvLink:hover {
+    background: url("/images/crumpled-paper.png");
+    background-size: 100px 100px;
+    opacity: 50%;
+}
+
+.workLink {
+    width: 100px;
+    height: 100px;
+    background: url("/images/briefcase-closed.png");
+    background-size: 100px 100px;
+    display: inline-block;
+    border: none;
+    opacity: 80%;
+}
+.workLink:hover {
+    background: url("/images/briefcase-open.png");
+    background-size: 100px 100px;
+    opacity: 80%;
+}
+
+.contactLink {
+    width: 100px;
+    height: 100px;
+    background: url("/images/telephone.png") no-repeat;
+    background-size: 100px 80px;
+    display: inline-block;
+    border: none;
+    opacity: 80%;
+    position:relative;
+    bottom: 0px;
+}
+.contactLink:hover {
+    background: url("/images/telephone-ringing.png");
+    background-size: 100px 100px;
+    opacity: 80%;
+}
